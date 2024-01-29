@@ -1,0 +1,26 @@
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: blue;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .custom-card-1 {padding-bottom: 10px;background-color: brown;}
+    .custom-card-2 {padding-bottom: 10px;background-color: black;}
+  }
+
+body{
+    font-family: 'Rubik Burned', system-ui;   
+}
+
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+.custom-card{
+    padding-bottom: 10px;
+}
